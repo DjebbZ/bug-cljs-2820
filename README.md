@@ -2,6 +2,6 @@
 
 #### Usage
 
-1. `git clone`
+1. `git clone https://github.com/DjebbZ/bug-cljs-2820.git`
+3. `cd bug-cljs-2820`
 2. `clj -A:bug`
-3. See the problem immediately in the console
