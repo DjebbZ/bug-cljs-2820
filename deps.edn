@@ -1,0 +1,2 @@
+{:deps {org.clojure/clojurescript {:mvn/version "1.10.339"}}
+ :aliases {:bug {:main-opts ["-m" "cljs.main" "-co" "bug.cljs.edn" "--repl"]}}}
