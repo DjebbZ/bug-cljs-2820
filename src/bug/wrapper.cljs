@@ -1,10 +1,9 @@
 (ns bug.wrapper
-  (:require [bug.jslib :as jslib]
-            [cljs.loader :as loader]))
+  (:require [cljs.loader :as loader]))
 
 (enable-console-print!)
 
 (defn start []
-      (jslib/start))
+      (println "I, cljs, have been lazy-loaded successfully"))
 
 (loader/set-loaded! :lazy-loaded)

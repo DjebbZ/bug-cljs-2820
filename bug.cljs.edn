@@ -1,7 +1,6 @@
 {:main          bug.core
  :output-dir    "target/js"
  :optimizations :none
- :libs          ["bug/jslib.js"]
  :modules       {:cljs-base {:output-to "target/js/bug.js"}
                  :lazy-loaded {:entries #{bug.wrapper}
                                :output-to "target/js/bug-wrapper.js"}}}
